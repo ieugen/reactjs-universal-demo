@@ -2,9 +2,11 @@
 var babel = require("babel/register");
 
 var express = require('express'),
-    app = express()
+    app = express(),
+    simpleRoutes = require("./simple-routes");
 
-app.use(routes);
+app.use(simpleRoutes);
+app.use("/public", express.static("public"))
 
 var port = 3000 | process.env.PORT;
 

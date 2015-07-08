@@ -1,11 +1,11 @@
-"use strict";
-
 /**
  * To run this file and othe standalone examples:
  * $ npm install -g babel
  * $ babel-node <this-file.js>
  *
  */
+
+"use strict";
 
 var React = require("react");
 
