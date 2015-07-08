@@ -87,7 +87,7 @@ controls: true
 ```
 --
 
-### Alicații web isomorfe/universale
+### Aplicații web isomorfe/universale
 
 **Isomorf/Universal** , în context,  înseamnă *codul care poate fi executat fără modificări pe server și pe client*
 Componentele React pot fi scrise în așa fel.
