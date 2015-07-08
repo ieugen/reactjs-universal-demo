@@ -111,7 +111,7 @@ React poate crea pagini HTML statice.
 ```
 --
 
-### Alicații web isomorfe/universale
+### Aplicații web isomorfe/universale
 
 **Isomorf/Universal** , în context,  înseamnă *codul care poate fi executat fără modificări pe server și pe client*
 
