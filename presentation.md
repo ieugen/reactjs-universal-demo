@@ -27,8 +27,8 @@ controls: true
 
 ### Aplicații web clasice
 
-Întreaga pagina HTML este renderizată pe server.
-JavaScript este foarte puțin/deloc folosit.
+* întreaga pagina HTML este renderizată pe server.
+* JavaScript este foarte puțin/deloc folosit.
 
 ```
    .------------.               .---------.
@@ -75,4 +75,31 @@ JavaScript este foarte puțin/deloc folosit.
    |                         |
    '-------------------------'
 ```
+
+--
+
+### React (intro)
+
+```
+  var str = React.renderToString(<h1>Frontentd Bucharest</h1>)
+  var strWithAttr = React.renderToStaticMarkup(<h1>Is Awesome</h1>)
+
+```
+--
+
+### Alicații web isomorfe/universale
+
+**Isomorf/Universal** , în context,  înseamnă *codul care poate fi executat fără modificări pe server și pe client*
+Componentele React pot fi scrise în așa fel.
+
+--
+
+# Demo
+## ...murmur în sală
+
+--
+
+# Sfârșit
+## Sper că v-a plăcut
+
 
