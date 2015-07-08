@@ -119,6 +119,14 @@ Componentele React pot fi scrise în așa fel.
 
 --
 
+### Câteva componente React Isomorfe
+
+* [Newforms - formulare](http://newforms.readthedocs.org/en/latest/)
+* [React Router - Rute declarative](http://rackt.github.io/react-router/)
+* [Redux - Isomorphic React Flux ](https://github.com/gaearon/redux/)
+
+--
+
 # Demo
 ## ...murmur în sală
 
