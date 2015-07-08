@@ -13,6 +13,17 @@ controls: true
 
 --
 
+### Despre mine
+
+* Consultant software 
+* Freelancer/Antreprenor
+* Instructor ( trainer adică )
+* Pasionat de tehnologie, în special Software Liber
+* Implicat în comunități: BJUG, Apache Software Foundation, Debian ..
+* Mă găsiți [http://ieugen.ro](ieugen.ro)
+
+--
+
 ### Agendă
 
 * Ce opțiuni avem pentru aplicații web
