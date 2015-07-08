@@ -29,6 +29,7 @@ controls: true
 
 * întreaga pagina HTML este renderizată pe server.
 * JavaScript este foarte puțin/deloc folosit.
+* experiența la utilizare este mai puțin plăcută
 
 ```
    .------------.               .---------.
@@ -43,6 +44,11 @@ controls: true
 --
 
 ### Aplicații web Server + AJAX
+
+* pagina este generate pe server
+* după care se încarcă diferențe, bucăți HTML
+* experiență la utilizare mai bună
+* greu de dezvoltat
 
 ```
   .-------------------------.
@@ -62,6 +68,11 @@ controls: true
 
 ### Aplicații web "single-page"
 
+* încarcăre inițială greoaie
+* experiență la utilizare foarte bună
+* nu funcționează fără JavaScript
+* nepotrivit pentru SEO
+
 ```
    .-------------------------.
    |        Pagina web       |
@@ -80,6 +91,8 @@ controls: true
 
 ### React (intro)
 
+React poate crea pagini HTML statice.
+
 ```
   var str = React.renderToString(<h1>Frontentd Bucharest</h1>)
   var strWithAttr = React.renderToStaticMarkup(<h1>Is Awesome</h1>)
@@ -90,6 +103,7 @@ controls: true
 ### Alicații web isomorfe/universale
 
 **Isomorf/Universal** , în context,  înseamnă *codul care poate fi executat fără modificări pe server și pe client*
+
 Componentele React pot fi scrise în așa fel.
 
 --
